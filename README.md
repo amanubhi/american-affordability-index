@@ -2,6 +2,8 @@
 
 *A data-driven investigation into what it really costs to live in America.*
 
+**Milestones 1–8 delivered:** public dashboard, tested Streamlit source, reproducible analysis and storytelling. Live browser visual QA remains unverified.
+
 [Public dashboard](https://american-affordability-index.sunlittuna11.chatgpt.site) · [Executive case study](reports/executive_summary.md) · [Methodology](reports/METHODOLOGY.md) · [Source registry](reports/SOURCE_REGISTRY.md)
 
 ## Did income keep pace with selected essentials?

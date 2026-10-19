@@ -24,4 +24,4 @@
 
 The browser approval gate declined localhost preview access. No alternate browser surface or headless workaround was used. Streamlit AppTest verifies application rendering/state changes, not real-browser visual behavior. Responsive layout, interactive map display and downloadable-file UI behavior have not been visually verified in a live browser. This limitation is retained in the README and limitations document.
 
-Sites native deployment status and GitHub Actions status are recorded in DEPLOYMENT.md after publication. A successful deployment is not a claim that browser visual QA occurred. The public Site is a browser-only companion exported from the same results; the Streamlit app remains separately runnable.
+Sites native deployment succeeded. The public GitHub release passed its clean-environment workflow, including a full offline rebuild and the same Python/JS checks; details are recorded in DEPLOYMENT.md. A successful deployment is not a claim that browser visual QA occurred. The public Site is a browser-only companion exported from the same results; the Streamlit app remains separately runnable.

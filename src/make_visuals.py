@@ -15,7 +15,7 @@ COLORS=charts.COLORS
 
 def main():
     out=ROOT/'visuals';out.mkdir(exist_ok=True)
-    plt.rcParams.update({'font.family':'DejaVu Sans','font.size':12,'axes.spines.top':False,'axes.spines.right':False,'axes.spines.left':False,'axes.grid':True,'grid.alpha':.15,'axes.axisbelow':True,'figure.facecolor':'#fffdf9','axes.facecolor':'#fffdf9','text.color':'#20364b','axes.labelcolor':'#20364b'})
+    plt.rcParams.update({'text.parse_math':False,'font.family':'DejaVu Sans','font.size':12,'axes.spines.top':False,'axes.spines.right':False,'axes.spines.left':False,'axes.grid':True,'grid.alpha':.15,'axes.axisbelow':True,'figure.facecolor':'#fffdf9','axes.facecolor':'#fffdf9','text.color':'#20364b','axes.labelcolor':'#20364b'})
     load=lambda name:pd.read_parquet(PROCESSED/f'{name}.parquet')
     def finish(fig,name,title,subtitle,source):
         fig.suptitle(title,x=.09,y=.97,ha='left',fontsize=20,fontweight='bold')

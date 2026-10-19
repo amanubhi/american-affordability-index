@@ -10,7 +10,7 @@ The user authorized work through Milestone 8. The original milestone gate is sup
 | 4. SQL model | Complete | DuckDB facts/dimensions; national and state marts; 14 named analytical result sets; no national-price fan-out to states; independent formula and total reconciliation. |
 | 5. Core analysis | Complete | Six questions answered with actual evidence; weight/relationship sensitivity, item volatility, calendar-safe rolling measures and transparent scenarios. Unsupported causal, welfare and forecast conclusions excluded. |
 | 6. Dashboard | Complete with verification limit | Four-page Streamlit app plus browser-only public companion and simulator. All pages pass AppTest and browser-simulator arithmetic cases pass. Live browser visual/map QA was declined. |
-| 7. Testing/deployment | Release prepared and publication tracked | 24 Python tests, six JS cases, offline build and GitHub Actions workflow. See DEPLOYMENT.md for actual remote status. Browser visual QA remains unverified; no scheduled refresh. |
+| 7. Testing/deployment | Complete with recorded browser verification limit | 24 Python tests, six JS cases, offline build and GitHub Actions workflow. Public Sites deployment succeeded and the public GitHub release passed a clean-environment CI rebuild. See DEPLOYMENT.md for actual remote status. Browser visual QA remains unverified; no scheduled refresh. |
 | 8. Storytelling | Complete | Executive case study, two-page PDF brief, six-page LinkedIn carousel, concise post draft, executed notebook and interview walkthrough/five questions. No LinkedIn post sent. |
 
 ## Decisions made during implementation
