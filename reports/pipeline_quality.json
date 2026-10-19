@@ -1,0 +1,56 @@
+{
+  "acs_rows": 7488,
+  "acs_estimate_nulls": 0,
+  "acs_moe_nulls": 0,
+  "acs_duplicate_keys": 0,
+  "acs_geographies_by_year": {
+    "2015": 52,
+    "2016": 52,
+    "2017": 52,
+    "2018": 52,
+    "2019": 52,
+    "2021": 52,
+    "2022": 52,
+    "2023": 52,
+    "2024": 52
+  },
+  "prices_rows": 564,
+  "price_missing_values": 3,
+  "prices_nonpositive": 0,
+  "price_duplicate_keys": 0,
+  "price_coverage": {
+    "all_items": {
+      "first": "2015-01-01",
+      "last": "2026-09-01",
+      "observed": 140,
+      "missing": 1
+    },
+    "food": {
+      "first": "2015-01-01",
+      "last": "2026-09-01",
+      "observed": 140,
+      "missing": 1
+    },
+    "gasoline": {
+      "first": "2015-01-01",
+      "last": "2026-09-01",
+      "observed": 141,
+      "missing": 0
+    },
+    "rent": {
+      "first": "2015-01-01",
+      "last": "2026-09-01",
+      "observed": 140,
+      "missing": 1
+    }
+  },
+  "item_rows": 8869,
+  "item_category_corrections": 261,
+  "decisions": [
+    "No interpolation or outlier deletion.",
+    "ACS 2020 intentionally absent.",
+    "Coffee to Drinks; potato chips to Pantry and snacks; source labels retained.",
+    "Mixed units never averaged.",
+    "Non-numeric/negative ACS sentinels retained as raw strings and normalized to null."
+  ]
+}

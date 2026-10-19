@@ -1,0 +1,9 @@
+category,date,value,unit,high_rank,low_rank
+all_items,2015-01-01,233.707,index (1982–84=100),140,1
+all_items,2026-09-01,336.94,index (1982–84=100),1,140
+food,2016-12-01,236.464,index (1982–84=100),140,1
+food,2026-09-01,321.758,index (1982–84=100),1,140
+gasoline,2016-02-01,1.764,USD/US gallon,141,1
+gasoline,2022-06-01,4.929,USD/US gallon,1,141
+rent,2015-01-01,281.572,index (1982–84=100),140,1
+rent,2026-09-01,450.402,index (1982–84=100),1,140

@@ -1,0 +1,114 @@
+[
+  {
+    "file": "acs2015_B19013.json",
+    "url": "https://api.census.gov/data/2015/acs/acs1/groups/B19013.json",
+    "retrieved_date": "2026-10-19",
+    "exit_code": 0,
+    "sha256": "d2cd92a105f4b9e58ebff0706c47b241810a0cc32685e892c7b98aae38845415",
+    "error": ""
+  },
+  {
+    "file": "acs2015_B25064.json",
+    "url": "https://api.census.gov/data/2015/acs/acs1/groups/B25064.json",
+    "retrieved_date": "2026-10-19",
+    "exit_code": 0,
+    "sha256": "03008d1caf89988299079d844f16ddf66e5c6c59bb08881bc143f8696b07edba",
+    "error": ""
+  },
+  {
+    "file": "acs2015_B25070.json",
+    "url": "https://api.census.gov/data/2015/acs/acs1/groups/B25070.json",
+    "retrieved_date": "2026-10-19",
+    "exit_code": 0,
+    "sha256": "74662ef6759a7f1d8602c4e42889e81dd4909a5e7e49142e9d7429295d05bd06",
+    "error": ""
+  },
+  {
+    "file": "acs2015_B25119.json",
+    "url": "https://api.census.gov/data/2015/acs/acs1/groups/B25119.json",
+    "retrieved_date": "2026-10-19",
+    "exit_code": 0,
+    "sha256": "98f1d2860dc4b4d81675f68bd7e50290dac7bf45c91291aa72a18e19f64502cb",
+    "error": ""
+  },
+  {
+    "file": "acs2024_B19013.json",
+    "url": "https://api.census.gov/data/2024/acs/acs1/groups/B19013.json",
+    "retrieved_date": "2026-10-19",
+    "exit_code": 0,
+    "sha256": "9d9a194bd32e613f3b4c1f5a7b8d43d7c08b65c13278e91537ec8ac7538facb3",
+    "error": ""
+  },
+  {
+    "file": "acs2024_B25064.json",
+    "url": "https://api.census.gov/data/2024/acs/acs1/groups/B25064.json",
+    "retrieved_date": "2026-10-19",
+    "exit_code": 0,
+    "sha256": "c3c7acbedc6e36b1c85866719f30d01f79a77cb2bc5677a006e415476406fffa",
+    "error": ""
+  },
+  {
+    "file": "acs2024_B25070.json",
+    "url": "https://api.census.gov/data/2024/acs/acs1/groups/B25070.json",
+    "retrieved_date": "2026-10-19",
+    "exit_code": 0,
+    "sha256": "ae973f9889e12c0571e7c6cc4fcd1fc96afc3c3b69daf0fde17b37aada5faf9c",
+    "error": ""
+  },
+  {
+    "file": "acs2024_B25119.json",
+    "url": "https://api.census.gov/data/2024/acs/acs1/groups/B25119.json",
+    "retrieved_date": "2026-10-19",
+    "exit_code": 0,
+    "sha256": "41231827328e345950bbb7f99954ec26f842cbdc8a9912c1bebd33da03c91b9b",
+    "error": ""
+  },
+  {
+    "file": "bls_CUUR0000SA0_2015_2024.json",
+    "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0?startyear=2015&endyear=2024",
+    "retrieved_date": "2026-10-19",
+    "exit_code": 0,
+    "sha256": "013ba586ff638b8a627bc3315cce7af2b3dd5d1a2247bcbebb05c8fb6ef809bf",
+    "error": ""
+  },
+  {
+    "file": "bls_CUUR0000SAF11_2015_2024.json",
+    "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SAF11?startyear=2015&endyear=2024",
+    "retrieved_date": "2026-10-19",
+    "exit_code": 0,
+    "sha256": "5d515e1e7037049ca0cf38a99dbffa55c82c7045bacb84cfb0658065f9c86183",
+    "error": ""
+  },
+  {
+    "file": "bls_CUUR0000SEHA_2015_2024.json",
+    "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SEHA?startyear=2015&endyear=2024",
+    "retrieved_date": "2026-10-19",
+    "exit_code": 0,
+    "sha256": "8d525de10408cd8862d303f2d2ce7f4cc0f183ff9ac636607574a3dca7c9f480",
+    "error": ""
+  },
+  {
+    "file": "eia_regular_monthly.html",
+    "url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=EMM_EPMR_PTE_NUS_DPG&f=M",
+    "retrieved_date": "2026-10-19",
+    "exit_code": 0,
+    "sha256": "c08d29e8755301a6a00f47bf83a5e419909baacc1811daa01bcca4c33f2f8eb9",
+    "error": ""
+  },
+  {
+    "file": "acs_release_schedule.html",
+    "url": "https://www.census.gov/programs-surveys/acs/news/data-releases/2025/release-schedule.html",
+    "retrieved_date": "2026-10-19",
+    "exit_code": 0,
+    "sha256": "34ea66e13616d92b89f035fd5a5d956476ecf788f75038db9576ca6d32c6f5b5",
+    "error": ""
+  },
+  {
+    "file": "ce2015_report.html",
+    "url": "https://www.bls.gov/opub/reports/consumer-expenditures/2015/",
+    "retrieved_date": "2026-10-19",
+    "exit_code": 56,
+    "sha256": null,
+    "error": "curl: (56) The requested URL returned error: 403\n"
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "levels": {
+    "n": 140,
+    "pearson": 0.7512406785732606,
+    "spearman": 0.7063710215553233
+  },
+  "monthly_changes": {
+    "n": 138,
+    "pearson": -0.07256266055076703,
+    "spearman": 0.006290119489442748
+  },
+  "linear_detrended_levels": {
+    "n": 140,
+    "pearson": 0.33404328935022093,
+    "spearman": 0.34273468762983544
+  },
+  "month_demeaned_changes": {
+    "n": 138,
+    "pearson": -0.15323060951479184,
+    "spearman": -0.0740224069554258
+  },
+  "common_cpi_deflated_levels": {
+    "n": 140,
+    "pearson": -0.09762433866478121,
+    "spearman": -0.1236622859766898
+  },
+  "exclude_2020_2023_changes": {
+    "n": 90,
+    "pearson": -0.13899615159897144,
+    "spearman": -0.12028695018807968
+  },
+  "pre_pandemic": {
+    "n": 59,
+    "pearson": -0.20570894101413292,
+    "spearman": -0.14459380479251902
+  },
+  "pandemic": {
+    "n": 24,
+    "pearson": -0.47048165846305345,
+    "spearman": -0.1782608695652174
+  },
+  "shock_adjustment": {
+    "n": 24,
+    "pearson": 0.38117007384752477,
+    "spearman": 0.3313043478260869
+  },
+  "recent": {
+    "n": 31,
+    "pearson": -0.13377612442912837,
+    "spearman": -0.14919354838709678
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "baseline_year": 2015,
+  "endpoint_year": 2024,
+  "monthly_reference": "2026-09-01",
+  "renter_income_growth_pct": 51.81663552965452,
+  "modeled_cost_growth_pct": 40.61188643065151,
+  "affordability_index": 107.96856466649359,
+  "modeled_baseline_annual_cost": 18600.0,
+  "modeled_endpoint_annual_cost": 26153.810876101183,
+  "required_income_for_2015_ratio": 50427.64083062455,
+  "required_income_adjustment_pct": -7.380448828886332,
+  "largest_cost_driver": "rent",
+  "contributions_usd": {
+    "food": 1273.7816305469562,
+    "gasoline": 657.1182825294159,
+    "rent": 5622.910963024813
+  },
+  "monthly_change_correlation": {
+    "n": 138,
+    "pearson": -0.07256266055076703,
+    "spearman": 0.006290119489442748
+  },
+  "scenario_reference_annualized_cost": 28507.626639897695,
+  "scenario_terminal_monthly_costs": {
+    "Low": 2405.0863254936185,
+    "Baseline": 2428.998896926944,
+    "High": 2508.812886863497
+  }
+}

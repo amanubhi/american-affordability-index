@@ -1,0 +1,7 @@
+series_id,quantity_per_month,expected_source_unit,item,category,unit,baseline_monthly_cost,latest_monthly_cost,dollar_change,endpoint
+APU0000708111,2,doz.,"Eggs, grade A, large",Eggs,dozen,4.938833333333334,4.378,-0.560833333333334,2026-07-01
+APU0000709112,4,gal. (3.8 lit),"Milk, fresh, whole, fortified",Dairy and fats,US gallon,13.674999999999999,17.252,3.577,2026-07-01
+APU0000703112,4,lb. (453.6 gm),"Ground beef, 100% beef",Beef,lb,16.667333333333335,27.54,10.872666666666664,2026-07-01
+APU0000702111,4,lb. (453.6 gm),"Bread, white, pan",Bakery and grains,lb,5.764,7.28,1.516,2026-07-01
+APU0000711211,4,lb. (453.6 gm),Bananas,Fruit,lb,2.331,2.6,0.26900000000000013,2026-07-01
+APU000074714,40,gallon/3.785 liters,"Gasoline, unleaded regular",Energy,US gallon,97.91000000000003,163.76000000000002,65.85,2026-07-01

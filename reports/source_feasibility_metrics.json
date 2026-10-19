@@ -1,0 +1,651 @@
+{
+  "retrieval_date": "2026-10-19",
+  "acs_metadata": {
+    "2015_B19013": {
+      "B19013_001MA": {
+        "label": "Annotation of Margin of Error!!Median household income in the past 12 months (in 2015 Inflation-adjusted dollars)",
+        "type": "string"
+      },
+      "B19013_001EA": {
+        "label": "Annotation of Estimate!!Median household income in the past 12 months (in 2015 Inflation-adjusted dollars)",
+        "type": "string"
+      },
+      "B19013_001E": {
+        "label": "Estimate!!Median household income in the past 12 months (in 2015 Inflation-adjusted dollars)",
+        "type": "int"
+      },
+      "B19013_001M": {
+        "label": "Margin of Error!!Median household income in the past 12 months (in 2015 Inflation-adjusted dollars)",
+        "type": "int"
+      }
+    },
+    "2015_B25064": {
+      "B25064_001EA": {
+        "label": "Annotation of Estimate!!Median gross rent",
+        "type": "string"
+      },
+      "B25064_001MA": {
+        "label": "Annotation of Margin of Error!!Median gross rent",
+        "type": "string"
+      },
+      "B25064_001E": {
+        "label": "Estimate!!Median gross rent",
+        "type": "int"
+      },
+      "B25064_001M": {
+        "label": "Margin of Error!!Median gross rent",
+        "type": "int"
+      }
+    },
+    "2015_B25070": {
+      "B25070_010MA": {
+        "label": "Annotation of Margin of Error!!Total!!50.0 percent or more",
+        "type": "string"
+      },
+      "B25070_010EA": {
+        "label": "Annotation of Estimate!!Total!!50.0 percent or more",
+        "type": "string"
+      },
+      "B25070_011EA": {
+        "label": "Annotation of Estimate!!Total!!Not computed",
+        "type": "string"
+      },
+      "B25070_011MA": {
+        "label": "Annotation of Margin of Error!!Total!!Not computed",
+        "type": "string"
+      },
+      "B25070_008MA": {
+        "label": "Annotation of Margin of Error!!Total!!35.0 to 39.9 percent",
+        "type": "string"
+      },
+      "B25070_009EA": {
+        "label": "Annotation of Estimate!!Total!!40.0 to 49.9 percent",
+        "type": "string"
+      },
+      "B25070_009MA": {
+        "label": "Annotation of Margin of Error!!Total!!40.0 to 49.9 percent",
+        "type": "string"
+      },
+      "B25070_003E": {
+        "label": "Estimate!!Total!!10.0 to 14.9 percent",
+        "type": "int"
+      },
+      "B25070_003M": {
+        "label": "Margin of Error!!Total!!10.0 to 14.9 percent",
+        "type": "int"
+      },
+      "B25070_002E": {
+        "label": "Estimate!!Total!!Less than 10.0 percent",
+        "type": "int"
+      },
+      "B25070_002M": {
+        "label": "Margin of Error!!Total!!Less than 10.0 percent",
+        "type": "int"
+      },
+      "B25070_001E": {
+        "label": "Estimate!!Total",
+        "type": "int"
+      },
+      "B25070_001M": {
+        "label": "Margin of Error!!Total",
+        "type": "int"
+      },
+      "B25070_007E": {
+        "label": "Estimate!!Total!!30.0 to 34.9 percent",
+        "type": "int"
+      },
+      "B25070_007M": {
+        "label": "Margin of Error!!Total!!30.0 to 34.9 percent",
+        "type": "int"
+      },
+      "B25070_006E": {
+        "label": "Estimate!!Total!!25.0 to 29.9 percent",
+        "type": "int"
+      },
+      "B25070_006M": {
+        "label": "Margin of Error!!Total!!25.0 to 29.9 percent",
+        "type": "int"
+      },
+      "B25070_005E": {
+        "label": "Estimate!!Total!!20.0 to 24.9 percent",
+        "type": "int"
+      },
+      "B25070_005M": {
+        "label": "Margin of Error!!Total!!20.0 to 24.9 percent",
+        "type": "int"
+      },
+      "B25070_004E": {
+        "label": "Estimate!!Total!!15.0 to 19.9 percent",
+        "type": "int"
+      },
+      "B25070_004M": {
+        "label": "Margin of Error!!Total!!15.0 to 19.9 percent",
+        "type": "int"
+      },
+      "B25070_009E": {
+        "label": "Estimate!!Total!!40.0 to 49.9 percent",
+        "type": "int"
+      },
+      "B25070_009M": {
+        "label": "Margin of Error!!Total!!40.0 to 49.9 percent",
+        "type": "int"
+      },
+      "B25070_008E": {
+        "label": "Estimate!!Total!!35.0 to 39.9 percent",
+        "type": "int"
+      },
+      "B25070_008M": {
+        "label": "Margin of Error!!Total!!35.0 to 39.9 percent",
+        "type": "int"
+      },
+      "B25070_011E": {
+        "label": "Estimate!!Total!!Not computed",
+        "type": "int"
+      },
+      "B25070_011M": {
+        "label": "Margin of Error!!Total!!Not computed",
+        "type": "int"
+      },
+      "B25070_010E": {
+        "label": "Estimate!!Total!!50.0 percent or more",
+        "type": "int"
+      },
+      "B25070_010M": {
+        "label": "Margin of Error!!Total!!50.0 percent or more",
+        "type": "int"
+      },
+      "B25070_004MA": {
+        "label": "Annotation of Margin of Error!!Total!!15.0 to 19.9 percent",
+        "type": "string"
+      },
+      "B25070_004EA": {
+        "label": "Annotation of Estimate!!Total!!15.0 to 19.9 percent",
+        "type": "string"
+      },
+      "B25070_005MA": {
+        "label": "Annotation of Margin of Error!!Total!!20.0 to 24.9 percent",
+        "type": "string"
+      },
+      "B25070_005EA": {
+        "label": "Annotation of Estimate!!Total!!20.0 to 24.9 percent",
+        "type": "string"
+      },
+      "B25070_006MA": {
+        "label": "Annotation of Margin of Error!!Total!!25.0 to 29.9 percent",
+        "type": "string"
+      },
+      "B25070_006EA": {
+        "label": "Annotation of Estimate!!Total!!25.0 to 29.9 percent",
+        "type": "string"
+      },
+      "B25070_007EA": {
+        "label": "Annotation of Estimate!!Total!!30.0 to 34.9 percent",
+        "type": "string"
+      },
+      "B25070_007MA": {
+        "label": "Annotation of Margin of Error!!Total!!30.0 to 34.9 percent",
+        "type": "string"
+      },
+      "B25070_008EA": {
+        "label": "Annotation of Estimate!!Total!!35.0 to 39.9 percent",
+        "type": "string"
+      },
+      "B25070_001EA": {
+        "label": "Annotation of Estimate!!Total",
+        "type": "string"
+      },
+      "B25070_001MA": {
+        "label": "Annotation of Margin of Error!!Total",
+        "type": "string"
+      },
+      "B25070_002EA": {
+        "label": "Annotation of Estimate!!Total!!Less than 10.0 percent",
+        "type": "string"
+      },
+      "B25070_002MA": {
+        "label": "Annotation of Margin of Error!!Total!!Less than 10.0 percent",
+        "type": "string"
+      },
+      "B25070_003MA": {
+        "label": "Annotation of Margin of Error!!Total!!10.0 to 14.9 percent",
+        "type": "string"
+      },
+      "B25070_003EA": {
+        "label": "Annotation of Estimate!!Total!!10.0 to 14.9 percent",
+        "type": "string"
+      }
+    },
+    "2015_B25119": {
+      "B25119_001EA": {
+        "label": "Annotation of Estimate!!Median household income in the past 12 months (in 2015 Inflation-adjusted dollars)!!Total",
+        "type": "string"
+      },
+      "B25119_001MA": {
+        "label": "Annotation of Margin of Error!!Median household income in the past 12 months (in 2015 Inflation-adjusted dollars)!!Total",
+        "type": "string"
+      },
+      "B25119_002EA": {
+        "label": "Annotation of Estimate!!Median household income in the past 12 months (in 2015 Inflation-adjusted dollars)!!Owner occupied (dollars)",
+        "type": "string"
+      },
+      "B25119_002MA": {
+        "label": "Annotation of Margin of Error!!Median household income in the past 12 months (in 2015 Inflation-adjusted dollars)!!Owner occupied (dollars)",
+        "type": "string"
+      },
+      "B25119_003MA": {
+        "label": "Annotation of Margin of Error!!Median household income in the past 12 months (in 2015 Inflation-adjusted dollars)!!Renter occupied (dollars)",
+        "type": "string"
+      },
+      "B25119_003EA": {
+        "label": "Annotation of Estimate!!Median household income in the past 12 months (in 2015 Inflation-adjusted dollars)!!Renter occupied (dollars)",
+        "type": "string"
+      },
+      "B25119_002E": {
+        "label": "Estimate!!Median household income in the past 12 months (in 2015 Inflation-adjusted dollars)!!Owner occupied (dollars)",
+        "type": "int"
+      },
+      "B25119_001M": {
+        "label": "Margin of Error!!Median household income in the past 12 months (in 2015 Inflation-adjusted dollars)!!Total",
+        "type": "int"
+      },
+      "B25119_001E": {
+        "label": "Estimate!!Median household income in the past 12 months (in 2015 Inflation-adjusted dollars)!!Total",
+        "type": "int"
+      },
+      "B25119_003M": {
+        "label": "Margin of Error!!Median household income in the past 12 months (in 2015 Inflation-adjusted dollars)!!Renter occupied (dollars)",
+        "type": "int"
+      },
+      "B25119_003E": {
+        "label": "Estimate!!Median household income in the past 12 months (in 2015 Inflation-adjusted dollars)!!Renter occupied (dollars)",
+        "type": "int"
+      },
+      "B25119_002M": {
+        "label": "Margin of Error!!Median household income in the past 12 months (in 2015 Inflation-adjusted dollars)!!Owner occupied (dollars)",
+        "type": "int"
+      }
+    },
+    "2024_B19013": {
+      "B19013_001MA": {
+        "label": "Annotation of Margin of Error!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars)",
+        "type": "string"
+      },
+      "B19013_001EA": {
+        "label": "Annotation of Estimate!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars)",
+        "type": "string"
+      },
+      "B19013_001E": {
+        "label": "Estimate!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars)",
+        "type": "int"
+      },
+      "B19013_001M": {
+        "label": "Margin of Error!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars)",
+        "type": "int"
+      }
+    },
+    "2024_B25064": {
+      "B25064_001EA": {
+        "label": "Annotation of Estimate!!Median gross rent",
+        "type": "string"
+      },
+      "B25064_001MA": {
+        "label": "Annotation of Margin of Error!!Median gross rent",
+        "type": "string"
+      },
+      "B25064_001E": {
+        "label": "Estimate!!Median gross rent",
+        "type": "int"
+      },
+      "B25064_001M": {
+        "label": "Margin of Error!!Median gross rent",
+        "type": "int"
+      }
+    },
+    "2024_B25070": {
+      "B25070_010MA": {
+        "label": "Annotation of Margin of Error!!Total:!!50.0 percent or more",
+        "type": "string"
+      },
+      "B25070_010EA": {
+        "label": "Annotation of Estimate!!Total:!!50.0 percent or more",
+        "type": "string"
+      },
+      "B25070_011EA": {
+        "label": "Annotation of Estimate!!Total:!!Not computed",
+        "type": "string"
+      },
+      "B25070_011MA": {
+        "label": "Annotation of Margin of Error!!Total:!!Not computed",
+        "type": "string"
+      },
+      "B25070_008MA": {
+        "label": "Annotation of Margin of Error!!Total:!!35.0 to 39.9 percent",
+        "type": "string"
+      },
+      "B25070_009EA": {
+        "label": "Annotation of Estimate!!Total:!!40.0 to 49.9 percent",
+        "type": "string"
+      },
+      "B25070_009MA": {
+        "label": "Annotation of Margin of Error!!Total:!!40.0 to 49.9 percent",
+        "type": "string"
+      },
+      "B25070_003E": {
+        "label": "Estimate!!Total:!!10.0 to 14.9 percent",
+        "type": "int"
+      },
+      "B25070_003M": {
+        "label": "Margin of Error!!Total:!!10.0 to 14.9 percent",
+        "type": "int"
+      },
+      "B25070_002E": {
+        "label": "Estimate!!Total:!!Less than 10.0 percent",
+        "type": "int"
+      },
+      "B25070_002M": {
+        "label": "Margin of Error!!Total:!!Less than 10.0 percent",
+        "type": "int"
+      },
+      "B25070_001E": {
+        "label": "Estimate!!Total:",
+        "type": "int"
+      },
+      "B25070_001M": {
+        "label": "Margin of Error!!Total:",
+        "type": "int"
+      },
+      "B25070_007E": {
+        "label": "Estimate!!Total:!!30.0 to 34.9 percent",
+        "type": "int"
+      },
+      "B25070_007M": {
+        "label": "Margin of Error!!Total:!!30.0 to 34.9 percent",
+        "type": "int"
+      },
+      "B25070_006E": {
+        "label": "Estimate!!Total:!!25.0 to 29.9 percent",
+        "type": "int"
+      },
+      "B25070_006M": {
+        "label": "Margin of Error!!Total:!!25.0 to 29.9 percent",
+        "type": "int"
+      },
+      "B25070_005E": {
+        "label": "Estimate!!Total:!!20.0 to 24.9 percent",
+        "type": "int"
+      },
+      "B25070_005M": {
+        "label": "Margin of Error!!Total:!!20.0 to 24.9 percent",
+        "type": "int"
+      },
+      "B25070_004E": {
+        "label": "Estimate!!Total:!!15.0 to 19.9 percent",
+        "type": "int"
+      },
+      "B25070_004M": {
+        "label": "Margin of Error!!Total:!!15.0 to 19.9 percent",
+        "type": "int"
+      },
+      "B25070_009E": {
+        "label": "Estimate!!Total:!!40.0 to 49.9 percent",
+        "type": "int"
+      },
+      "B25070_009M": {
+        "label": "Margin of Error!!Total:!!40.0 to 49.9 percent",
+        "type": "int"
+      },
+      "B25070_008E": {
+        "label": "Estimate!!Total:!!35.0 to 39.9 percent",
+        "type": "int"
+      },
+      "B25070_008M": {
+        "label": "Margin of Error!!Total:!!35.0 to 39.9 percent",
+        "type": "int"
+      },
+      "B25070_011E": {
+        "label": "Estimate!!Total:!!Not computed",
+        "type": "int"
+      },
+      "B25070_011M": {
+        "label": "Margin of Error!!Total:!!Not computed",
+        "type": "int"
+      },
+      "B25070_010E": {
+        "label": "Estimate!!Total:!!50.0 percent or more",
+        "type": "int"
+      },
+      "B25070_010M": {
+        "label": "Margin of Error!!Total:!!50.0 percent or more",
+        "type": "int"
+      },
+      "B25070_004MA": {
+        "label": "Annotation of Margin of Error!!Total:!!15.0 to 19.9 percent",
+        "type": "string"
+      },
+      "B25070_004EA": {
+        "label": "Annotation of Estimate!!Total:!!15.0 to 19.9 percent",
+        "type": "string"
+      },
+      "B25070_005MA": {
+        "label": "Annotation of Margin of Error!!Total:!!20.0 to 24.9 percent",
+        "type": "string"
+      },
+      "B25070_005EA": {
+        "label": "Annotation of Estimate!!Total:!!20.0 to 24.9 percent",
+        "type": "string"
+      },
+      "B25070_006MA": {
+        "label": "Annotation of Margin of Error!!Total:!!25.0 to 29.9 percent",
+        "type": "string"
+      },
+      "B25070_006EA": {
+        "label": "Annotation of Estimate!!Total:!!25.0 to 29.9 percent",
+        "type": "string"
+      },
+      "B25070_007EA": {
+        "label": "Annotation of Estimate!!Total:!!30.0 to 34.9 percent",
+        "type": "string"
+      },
+      "B25070_007MA": {
+        "label": "Annotation of Margin of Error!!Total:!!30.0 to 34.9 percent",
+        "type": "string"
+      },
+      "B25070_008EA": {
+        "label": "Annotation of Estimate!!Total:!!35.0 to 39.9 percent",
+        "type": "string"
+      },
+      "B25070_001EA": {
+        "label": "Annotation of Estimate!!Total:",
+        "type": "string"
+      },
+      "B25070_001MA": {
+        "label": "Annotation of Margin of Error!!Total:",
+        "type": "string"
+      },
+      "B25070_002EA": {
+        "label": "Annotation of Estimate!!Total:!!Less than 10.0 percent",
+        "type": "string"
+      },
+      "B25070_002MA": {
+        "label": "Annotation of Margin of Error!!Total:!!Less than 10.0 percent",
+        "type": "string"
+      },
+      "B25070_003MA": {
+        "label": "Annotation of Margin of Error!!Total:!!10.0 to 14.9 percent",
+        "type": "string"
+      },
+      "B25070_003EA": {
+        "label": "Annotation of Estimate!!Total:!!10.0 to 14.9 percent",
+        "type": "string"
+      }
+    },
+    "2024_B25119": {
+      "B25119_001EA": {
+        "label": "Annotation of Estimate!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars) --!!Total:",
+        "type": "string"
+      },
+      "B25119_001MA": {
+        "label": "Annotation of Margin of Error!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars) --!!Total:",
+        "type": "string"
+      },
+      "B25119_002EA": {
+        "label": "Annotation of Estimate!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars) --!!Total:!!Owner occupied (dollars)",
+        "type": "string"
+      },
+      "B25119_002MA": {
+        "label": "Annotation of Margin of Error!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars) --!!Total:!!Owner occupied (dollars)",
+        "type": "string"
+      },
+      "B25119_003MA": {
+        "label": "Annotation of Margin of Error!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars) --!!Total:!!Renter occupied (dollars)",
+        "type": "string"
+      },
+      "B25119_003EA": {
+        "label": "Annotation of Estimate!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars) --!!Total:!!Renter occupied (dollars)",
+        "type": "string"
+      },
+      "B25119_002E": {
+        "label": "Estimate!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars) --!!Total:!!Owner occupied (dollars)",
+        "type": "int"
+      },
+      "B25119_001M": {
+        "label": "Margin of Error!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars) --!!Total:",
+        "type": "int"
+      },
+      "B25119_001E": {
+        "label": "Estimate!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars) --!!Total:",
+        "type": "int"
+      },
+      "B25119_003M": {
+        "label": "Margin of Error!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars) --!!Total:!!Renter occupied (dollars)",
+        "type": "int"
+      },
+      "B25119_003E": {
+        "label": "Estimate!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars) --!!Total:!!Renter occupied (dollars)",
+        "type": "int"
+      },
+      "B25119_002M": {
+        "label": "Margin of Error!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars) --!!Total:!!Owner occupied (dollars)",
+        "type": "int"
+      }
+    }
+  },
+  "bls": {
+    "CUUR0000SA0": {
+      "rows": 120,
+      "missing_expected_months": [],
+      "duplicates": 0,
+      "invalid_values": 0,
+      "nonpositive_values": 0
+    },
+    "CUUR0000SAF11": {
+      "rows": 120,
+      "missing_expected_months": [],
+      "duplicates": 0,
+      "invalid_values": 0,
+      "nonpositive_values": 0
+    },
+    "CUUR0000SEHA": {
+      "rows": 120,
+      "missing_expected_months": [],
+      "duplicates": 0,
+      "invalid_values": 0,
+      "nonpositive_values": 0
+    }
+  },
+  "eia_regular_gasoline": {
+    "series": "EMM_EPMR_PTE_NUS_DPG",
+    "unit": "USD/US gallon",
+    "geography": "United States",
+    "frequency": "monthly",
+    "year_coverage": {
+      "2015": {
+        "observed_months": 12,
+        "missing_months": [],
+        "nonpositive_values": 0
+      },
+      "2016": {
+        "observed_months": 12,
+        "missing_months": [],
+        "nonpositive_values": 0
+      },
+      "2017": {
+        "observed_months": 12,
+        "missing_months": [],
+        "nonpositive_values": 0
+      },
+      "2018": {
+        "observed_months": 12,
+        "missing_months": [],
+        "nonpositive_values": 0
+      },
+      "2019": {
+        "observed_months": 12,
+        "missing_months": [],
+        "nonpositive_values": 0
+      },
+      "2020": {
+        "observed_months": 12,
+        "missing_months": [],
+        "nonpositive_values": 0
+      },
+      "2021": {
+        "observed_months": 12,
+        "missing_months": [],
+        "nonpositive_values": 0
+      },
+      "2022": {
+        "observed_months": 12,
+        "missing_months": [],
+        "nonpositive_values": 0
+      },
+      "2023": {
+        "observed_months": 12,
+        "missing_months": [],
+        "nonpositive_values": 0
+      },
+      "2024": {
+        "observed_months": 12,
+        "missing_months": [],
+        "nonpositive_values": 0
+      },
+      "2025": {
+        "observed_months": 12,
+        "missing_months": [],
+        "nonpositive_values": 0
+      },
+      "2026": {
+        "observed_months": 9,
+        "missing_months": [
+          "Oct",
+          "Nov",
+          "Dec"
+        ],
+        "nonpositive_values": 0
+      }
+    },
+    "duplicate_years": 0
+  },
+  "acs_data_query": {
+    "status": "missing_key_html",
+    "state_values_audited": false
+  },
+  "sha256": {
+    "acs2015_B19013.json": "d2cd92a105f4b9e58ebff0706c47b241810a0cc32685e892c7b98aae38845415",
+    "acs2015_B25064.json": "03008d1caf89988299079d844f16ddf66e5c6c59bb08881bc143f8696b07edba",
+    "acs2015_B25070.json": "74662ef6759a7f1d8602c4e42889e81dd4909a5e7e49142e9d7429295d05bd06",
+    "acs2015_B25119.json": "98f1d2860dc4b4d81675f68bd7e50290dac7bf45c91291aa72a18e19f64502cb",
+    "acs2024_B19013.json": "9d9a194bd32e613f3b4c1f5a7b8d43d7c08b65c13278e91537ec8ac7538facb3",
+    "acs2024_B25064.json": "c3c7acbedc6e36b1c85866719f30d01f79a77cb2bc5677a006e415476406fffa",
+    "acs2024_B25070.json": "ae973f9889e12c0571e7c6cc4fcd1fc96afc3c3b69daf0fde17b37aada5faf9c",
+    "acs2024_B25119.json": "41231827328e345950bbb7f99954ec26f842cbdc8a9912c1bebd33da03c91b9b",
+    "acs2024_missing_key.html": "c2f4687e09b80676de7f68dec92ebea395209616dbc6f895520e547c5f68c0f5",
+    "acs_release_schedule.html": "34ea66e13616d92b89f035fd5a5d956476ecf788f75038db9576ca6d32c6f5b5",
+    "bls_CUUR0000SA0_2015_2024.json": "013ba586ff638b8a627bc3315cce7af2b3dd5d1a2247bcbebb05c8fb6ef809bf",
+    "bls_CUUR0000SAF11_2015_2024.json": "5d515e1e7037049ca0cf38a99dbffa55c82c7045bacb84cfb0658065f9c86183",
+    "bls_CUUR0000SEHA_2015_2024.json": "8d525de10408cd8862d303f2d2ce7f4cc0f183ff9ac636607574a3dca7c9f480",
+    "eia_regular_monthly.html": "c08d29e8755301a6a00f47bf83a5e419909baacc1811daa01bcca4c33f2f8eb9",
+    "eia_regular_monthly.xls": "8df1a0386289a41319dbd4eb3ba34661de9c97cc746c978761b52e1d11aae5c0",
+    "retrieval_manifest.json": "47f90f1eb359e5157b6b30c477533f7d5b3cda2e386c7f72528250e52b94dfc5"
+  }
+}

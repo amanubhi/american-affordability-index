@@ -1,0 +1,61 @@
+{
+  "model_version": "illustrative-renter-v1",
+  "baseline_year": 2015,
+  "population": "illustrative renter budget; comparison to ACS renter median income",
+  "annual_baseline_usd": {
+    "rent": 12000,
+    "food": 4800,
+    "gasoline": 1800
+  },
+  "basis": "User-independent illustrative assumptions: $1,000 monthly contract-rent-like budget, $400 monthly food-at-home budget, $150 monthly gasoline budget in 2015. Not observed household spending or CE weights.",
+  "housing_definition": "Rent of primary residence CPI relative applied to illustrative baseline rent. Utilities are omitted, so gross rent is reserved for the separate ACS housing comparison.",
+  "sensitivity_weights": {
+    "equal": {
+      "rent": 6200,
+      "food": 6200,
+      "gasoline": 6200
+    },
+    "higher_rent": {
+      "rent": 14400,
+      "food": 3000,
+      "gasoline": 1200
+    },
+    "higher_food_fuel": {
+      "rent": 8400,
+      "food": 6600,
+      "gasoline": 3600
+    }
+  },
+  "item_basket": [
+    {
+      "series_id": "APU0000708111",
+      "quantity_per_month": 2,
+      "unit": "doz."
+    },
+    {
+      "series_id": "APU0000709112",
+      "quantity_per_month": 4,
+      "unit": "gal. (3.8 lit)"
+    },
+    {
+      "series_id": "APU0000703112",
+      "quantity_per_month": 4,
+      "unit": "lb. (453.6 gm)"
+    },
+    {
+      "series_id": "APU0000702111",
+      "quantity_per_month": 4,
+      "unit": "lb. (453.6 gm)"
+    },
+    {
+      "series_id": "APU0000711211",
+      "quantity_per_month": 4,
+      "unit": "lb. (453.6 gm)"
+    },
+    {
+      "series_id": "APU000074714",
+      "quantity_per_month": 40,
+      "unit": "gallon/3.785 liters"
+    }
+  ]
+}

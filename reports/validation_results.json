@@ -1,0 +1,13 @@
+{
+  "checks_passed": true,
+  "source_resources": 695,
+  "acs_rows": 7488,
+  "acs_expected_rows": 7488,
+  "acs_state_year_rows": 459,
+  "acs_national_year_rows": 9,
+  "acs_missing_estimates": 0,
+  "acs_missing_moes": 0,
+  "burden_universe_reconciliations": 468,
+  "price_missing_values": 3,
+  "source_bytes": 66692256
+}
