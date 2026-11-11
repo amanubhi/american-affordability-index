@@ -37,7 +37,7 @@ def main():
     ax.barh(ranks.category,ranks.median_item_change_pct,color=COLORS['food'])
     for i,r in enumerate(ranks.itertuples()):ax.text(r.median_item_change_pct+.5,i,f'{r.median_item_change_pct:.1f}%  (n={r.eligible_items})',va='center',fontsize=10)
     ax.set_xlim(0,max(ranks.median_item_change_pct)*1.35);ax.set_xlabel('Median eligible item price change (%)');ax.grid(axis='y',visible=False)
-    finish(fig,'02_category_rankings','Grocery category changes vary across eligible items','2015 versus 2024 full calendar-year means; unweighted item medians','Source: Kaggle v2 / BLS AP. 12 valid months required in both years. Revised categories. Not official category inflation.')
+    finish(fig,'02_category_rankings','Grocery category changes vary across eligible items','2015 versus 2024 full calendar-year means; unweighted item medians','Source: Kaggle / BLS AP (November 2026 refresh). 12 valid months required in both years. Revised categories. Not official category inflation.')
     fig,ax=plt.subplots(figsize=(13,7));x=n[n.year<=2024].sort_values('year')
     ax.plot(x.year,x.modeled_annual_cost,color=COLORS['rent'],linewidth=3,marker='o');ax.yaxis.set_major_formatter(FuncFormatter(lambda x,_:f'${x:,.0f}'));ax.set_ylabel('Modeled annual selected-essential cost (USD)')
     finish(fig,'03_basket_cost','The fixed illustrative budget becomes more expensive',f"U.S., 2015–2024; ${f['modeled_baseline_annual_cost']:,.0f} to ${f['modeled_endpoint_annual_cost']:,.0f} per year",'Source: BLS CPI / EIA. 2015 baseline: rent $12,000; food $4,800; gasoline $1,800. Utilities and other costs omitted.')

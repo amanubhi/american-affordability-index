@@ -60,7 +60,7 @@ Rounding can prevent displayed dollars from adding exactly. Unrounded contributi
 
 Alternative fixed budget weights yield affordability indexes from {weights.affordability_index.min():.1f} to {weights.affordability_index.max():.1f}; all four tested budgets exceed 100. This is a limited assumption sensitivity, not proof for all household budgets. Correlation sensitivity outputs include detrended levels, month-demeaned changes, common-CPI-deflated levels, shock exclusions, historical periods, lags 0–12 and 36-month rolling correlations. Common deflation can itself induce association.
 
-ACS standard 2020 is absent. There are no annual 2025/2026 affordability estimates; the latest available common year on the October 19 snapshot is 2024. October 2025 CPI gaps prevent complete annual means under the strict rule. The separate Kaggle source ends July 2026. No national prices are relabeled as state prices. The project retains actual input MOEs but does not invent uncertainty intervals for derived ratios.
+ACS standard 2020 is absent. There are no annual 2025/2026 affordability estimates; the latest available common year on the October 19 snapshot is 2024. October 2025 CPI gaps prevent complete annual means under the strict rule. The separate Kaggle source ends September 2026. No national prices are relabeled as state prices. The project retains actual input MOEs but does not invent uncertainty intervals for derived ratios.
 
 ## Evidence and reproduction
 

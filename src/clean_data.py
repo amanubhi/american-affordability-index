@@ -102,14 +102,14 @@ def normalize_prices():
 
 
 def normalize_items():
-    f=pd.read_csv(ROOT/'data/raw/kaggle/us_average_prices_monthly.csv',parse_dates=['date'])
+    f=pd.read_csv(ROOT/'data/raw/kaggle/2026-11-10/normalized_monthly.csv',parse_dates=['date'])
     f=f.rename(columns={'category':'source_category','unit':'source_unit'})
     f['category']=f.source_category
     f.loc[f.item.str.startswith('Coffee,'),'category']='Drinks'
     f.loc[f.item.eq('Potato chips'),'category']='Pantry and snacks'
     f['unit']=f.source_unit.replace({'gal. (3.8 lit)':'US gallon','gallon/3.785 liters':'US gallon','gallon (3.785 liters)':'US gallon','lb. (453.6 gm)':'lb','doz.':'dozen','KWH':'kWh'})
     f['price']=pd.to_numeric(f.price,errors='raise')
-    f['geography_id']='US';f['source']='Kaggle v2 / BLS AP'
+    f['geography_id']='US';f['source']='Kaggle sadiqguru v1 / BLS AP (retrieved 2026-11-10)'
     return f
 
 

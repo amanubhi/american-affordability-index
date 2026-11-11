@@ -26,3 +26,5 @@ Existing cached files are verified, and a changed URL or hash causes failure. Ne
 ## Publication and reuse
 
 See DATA_LICENSES.md for source notices and dependency licenses. Original code/documentation use MIT. No publisher endorses this analysis. The public companion packages only derived public-source results and static assets, with no user-entered simulator data, credentials or private financial records. The complete pipeline and retained public source snapshots are in the GitHub repository. No scheduled refresh or LinkedIn post was performed.
+
+The November 10 item-price refresh is documented in SOURCE_REGISTRY.md and kaggle_refresh.json; original source labels are reused by stable BLS series ID, not inferred from new display names.

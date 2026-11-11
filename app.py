@@ -69,7 +69,7 @@ elif page=='Cost Breakdown':
     item=load('illustrative_item_basket')
     fig=px.line(item,x='date',y='monthly_cost',labels={'monthly_cost':'Monthly USD'},title='Separate six-item illustrative basket')
     st.plotly_chart(fig,use_container_width=True)
-    st.caption('Kaggle/BLS AP through July 2026. Fixed monthly quantities: 2 dozen eggs, 4 gallons milk, 4 lb ground beef, 4 lb white bread, 4 lb bananas, 40 gallons regular gasoline. Incomplete months remain missing. Separate from the main CPI-based model.')
+    st.caption('Kaggle/BLS AP through September 2026. Fixed monthly quantities: 2 dozen eggs, 4 gallons milk, 4 lb ground beef, 4 lb white bread, 4 lb bananas, 40 gallons regular gasoline. Incomplete months remain missing. Separate from the main CPI-based model.')
 else:
     st.subheader('What would it take to change your modeled budget?')
     st.caption('User-entered scenario • USD • Annual before-tax income and selected monthly expenses • No personal inputs are stored')

@@ -4,7 +4,7 @@
 
 **Milestones 1–8 delivered:** public dashboard, tested Streamlit source, reproducible analysis and storytelling. Live browser visual QA remains unverified.
 
-[Public dashboard](https://american-affordability-index.sunlittuna11.chatgpt.site) · [Executive case study](reports/executive_summary.md) · [Methodology](reports/METHODOLOGY.md) · [Source registry](reports/SOURCE_REGISTRY.md)
+[Public dashboard](https://amanubhi.github.io/american-affordability-index/) · [Executive case study](reports/executive_summary.md) · [Methodology](reports/METHODOLOGY.md) · [Source registry](reports/SOURCE_REGISTRY.md)
 
 ## Did income keep pace with selected essentials?
 
@@ -41,7 +41,7 @@ All six receive evidence-based answers and boundaries in [ANALYSIS_RESULTS.md](r
 | Census ACS 1-year | B19013, B25119, B25064, B25070 | 2015–2019, 2021–2024; nation, 50 states and DC |
 | BLS CPI-U NSA | Food at home, rent, all items | Jan 2015–Sep 2026; Oct 2025 unavailable |
 | EIA | National regular/all-formulations gasoline | Jan 2015–Sep 2026 |
-| Kaggle / BLS AP | 74 item price series, version 2 | Jan 2015–Jul 2026; uneven item coverage |
+| Kaggle / BLS AP | 74 retained item series; refreshed from sadiqguru version 1 | Jan 2015–Sep 2026; uneven item coverage |
 
 **695 official resources** are preserved with hashes. **7,488 ACS estimate/MOE records** pass coverage, key and source-universe reconciliation checks. The original Kaggle long file has no explicit nulls but omits 1,417 cells on a full item/month grid. Coffee and potato chips receive reviewed category corrections while source labels remain intact.
 
@@ -104,3 +104,15 @@ The model omits major expenses/taxes and uses aggregate renter income with illus
 Live browser preview was declined by the browser approval gate. Application tests and browser-companion arithmetic checks pass; exported charts and PDFs were visually inspected. Real-browser responsive/map rendering remains unverified in this session.
 
 Original code and writing: MIT. Source data and vendor assets retain their own notices. No government agency endorses the analysis. LinkedIn materials are prepared for review; no social post was sent.
+
+## November 10, 2026 Kaggle refresh
+
+The item-price layer now uses [US BLS Average Retail Prices](https://www.kaggle.com/datasets/sadiqguru/us-bls-average-prices), version 1. It retains the original 74 national BLS series and extends their usable observations from July to September 2026: **8,869 → 8,989 rows (+120)**. All overlapping prices agree exactly; 72 blank-price candidate records are excluded without imputation. Original labels, physical units, category corrections, and the original raw files are preserved.
+
+`src/refresh_kaggle.py` validates the archive hash, geography, adjustment status, keys, positive prices, and historical overlap before producing the pipeline input. The ordinary pipeline performs this reconciliation offline. To restore the pinned archive, download the versioned URL in `data/raw/kaggle/2026-11-10/manifest.json` to that directory as `us-bls-average-prices.zip`.
+
+This refresh affects item-price analysis, the illustrative six-item basket, and their displays. **It does not refresh Census/CPI/EIA or extend the annual affordability index beyond 2024.** Those official-source inputs remain the October 19 snapshot. Original audit reports describe the old dataset; see `reports/kaggle_refresh.json` for the new reconciliation evidence.
+
+## GitHub Pages deployment
+
+Pushes to `main` publish the checked-in browser companion in `web/dist` using `.github/workflows/pages.yml`. Rebuild and validate locally before pushing data changes. The Streamlit app is a separate local application; GitHub Pages hosts the static companion.

@@ -32,7 +32,7 @@ Rounding can prevent displayed dollars from adding exactly. Unrounded contributi
 ## Decisions supported
 
 - **Consumers:** monitor rent when evaluating recurring commitments. It drives 74.4% of this model's increase, but households should replace the illustrative weights with their own budget. The simulator makes that sensitivity visible.
-- **Grocery businesses:** monitor seasonal produce and eggs with month-aware comparisons. Among series with at least 60 valid changes, strawberries, grapes and eggs have monthly-change standard deviations of 11.67, 11.17 and 9.59 percentage points. These NSA movements combine seasonality and other changes; they do not establish inventory risk or margins for any business.
+- **Grocery businesses:** monitor seasonal produce and eggs with month-aware comparisons. Among series with at least 60 valid changes, strawberries, grapes and eggs have monthly-change standard deviations of 11.62, 11.17 and 9.52 percentage points. These NSA movements combine seasonality and other changes; they do not establish inventory risk or margins for any business.
 - **Business planners:** stress-test rent, grocery and fuel assumptions separately. The historical-quantile paths produce terminal monthly modeled costs of $2,405, $2,429 and $2,509, starting from September 2026 prices. They are illustrative joint scenarios, not forecast intervals or probabilities.
 - **Housing researchers/policymakers:** use the direct ACS burden-band measure when assessing prevalence. A ratio of medians cannot substitute for household burden. Review local and population-specific data before policy or relocation decisions.
 
@@ -40,7 +40,7 @@ Rounding can prevent displayed dollars from adding exactly. Unrounded contributi
 
 Alternative fixed budget weights yield affordability indexes from 106.2 to 111.1; all four tested budgets exceed 100. This is a limited assumption sensitivity, not proof for all household budgets. Correlation sensitivity outputs include detrended levels, month-demeaned changes, common-CPI-deflated levels, shock exclusions, historical periods, lags 0–12 and 36-month rolling correlations. Common deflation can itself induce association.
 
-ACS standard 2020 is absent. There are no annual 2025/2026 affordability estimates; the latest available common year on the October 19 snapshot is 2024. October 2025 CPI gaps prevent complete annual means under the strict rule. The separate Kaggle source ends July 2026. No national prices are relabeled as state prices. The project retains actual input MOEs but does not invent uncertainty intervals for derived ratios.
+ACS standard 2020 is absent. There are no annual 2025/2026 affordability estimates; the latest available common year on the October 19 snapshot is 2024. October 2025 CPI gaps prevent complete annual means under the strict rule. The separate Kaggle source ends September 2026. No national prices are relabeled as state prices. The project retains actual input MOEs but does not invent uncertainty intervals for derived ratios.
 
 ## Evidence and reproduction
 

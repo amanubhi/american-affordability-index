@@ -14,7 +14,7 @@ def main():
     item=load('illustrative_item_basket');lag=load('lag_correlations')
     itemfig=px.line(item,x='date',y='monthly_cost')
     itemfig.update_yaxes(title='Monthly modeled USD')
-    itemfig=charts.style(itemfig,'A separate basket of six everyday items','U.S. • 2015–July 2026 • Kaggle / BLS AP • Fixed quantities; incomplete months remain missing')
+    itemfig=charts.style(itemfig,'A separate basket of six everyday items','U.S. • 2015–September 2026 • Kaggle / BLS AP • Fixed quantities; incomplete months remain missing')
     lagfig=px.line(lag,x='lag_months',y=['pearson','spearman'],markers=True)
     lagfig.update_xaxes(title='Months gasoline leads grocery change')
     lagfig=charts.style(lagfig,'Lagged relationships are descriptive','U.S. • BLS CPI / EIA • Positive k pairs gas change t with grocery change t+k • No causal inference')

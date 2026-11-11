@@ -12,7 +12,7 @@ Recommend a **renter-focused first model** (rent, food at home, regular gasoline
 
 1. **National annual affordability:** 2015–2024 provisionally, with 2020 missing for ACS-dependent metrics. Use official food-at-home CPI and EIA gasoline; finalize rent proxy and baseline budgets after audit. Final years are the intersection of verified inputs, not assumed from the title.
 2. **State annual housing comparison:** 50 states; display DC separately and exclude Puerto Rico from the default comparison. Use zero-padded Census FIPS, ACS 1-year rent and income/MOEs. Do not create state grocery or gasoline prices from national values. National figures must be retrieved at national geography, never averaged from state medians.
-3. **Monthly price context through 2026:** independent latest date per source; Kaggle ends July 2026 and inspected EIA ends September 2026. Partial-year price charts are not current-year affordability estimates. A combined monthly gas/item analysis uses the actual common window and valid consecutive observations.
+3. **Monthly price context through 2026:** independent latest date per source; Kaggle ends September 2026 and inspected EIA ends September 2026. Partial-year price charts are not current-year affordability estimates. A combined monthly gas/item analysis uses the actual common window and valid consecutive observations.
 
 No Zillow/listings input is required for first release. CE weights are conditional; a fully explicit illustrative budget is an acceptable fallback, clearly labeled. No income-quintile or household-type conclusions without compatible population-specific inputs.
 

@@ -44,8 +44,8 @@
       "missing": 1
     }
   },
-  "item_rows": 8869,
-  "item_category_corrections": 261,
+  "item_rows": 8989,
+  "item_category_corrections": 265,
   "decisions": [
     "No interpolation or outlier deletion.",
     "ACS 2020 intentionally absent.",

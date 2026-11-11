@@ -1,0 +1,15 @@
+{
+  "original_rows": 8869,
+  "refreshed_rows": 8989,
+  "added_rows": 120,
+  "revised_rows": 0,
+  "series_count": 74,
+  "latest_date": "2026-09-01",
+  "dataset": "sadiqguru/us-bls-average-prices",
+  "version": 1,
+  "retrieved_date": "2026-11-10",
+  "archive_sha256": "4413aeaf1320c0d31554da4a25aff412b0f2011429a0c79015ce24861f975110",
+  "url": "https://www.kaggle.com/datasets/sadiqguru/us-bls-average-prices",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/sadiqguru/us-bls-average-prices?datasetVersionNumber=1",
+  "scope": "Original 74 national BLS series; original labels and units retained."
+}

@@ -29,3 +29,7 @@ Frozen snapshot: **October 19, 2026**. Feasibility notes are preserved in archiv
 The data API's key requirement is resolved by the documented public-download route, not by treating the HTML error page as data. No credentials are needed for reproduction from frozen files. Collecting a new vintage uses `ingest_data.py --snapshot YYYY-MM-DD`, followed by an explicitly reviewed update to SNAPSHOT in common.py and a complete rebuild/validation. Existing files are never overwritten silently; changed URLs or hashes fail.
 
 No automatic refresh is scheduled. Source definitions, source vintage and current data availability must be reviewed before extending 2025/2026 affordability results. See DATA_LICENSES.md for reuse notices.
+
+## Item-price refresh — November 10, 2026
+
+Kaggle `sadiqguru/us-bls-average-prices`, version 1 (CC0 per Kaggle metadata), supplements the frozen official-source snapshot for item prices only. Reviewed archive SHA-256 and download URL are recorded in `data/raw/kaggle/2026-11-10/manifest.json`. Same 74 national BLS series, 8,989 nonblank prices through September 2026; 120 added observations and zero overlap revisions. The old Kaggle source and its audits remain preserved.

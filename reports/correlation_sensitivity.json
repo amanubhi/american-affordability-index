@@ -11,7 +11,7 @@
   },
   "linear_detrended_levels": {
     "n": 140,
-    "pearson": 0.33404328935022093,
+    "pearson": 0.3340432893502208,
     "spearman": 0.34273468762983544
   },
   "month_demeaned_changes": {

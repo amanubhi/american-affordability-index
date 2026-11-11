@@ -10,3 +10,7 @@ Original analysis code and writing use the repository MIT license. Source data a
 - Other dependencies retain their package licenses. Zillow and scraped property-listing data are not included in the analytical model or public release.
 
 No API credentials, private financial records, or user-entered simulator inputs are included in the repository.
+
+## November 2026 item-price refresh
+
+The pinned `sadiqguru/us-bls-average-prices` Kaggle version 1 is labeled CC0 in Kaggle metadata. Its underlying source is BLS Average Price Data. Original archive bytes and their SHA-256 are retained under `data/raw/kaggle/2026-11-10/`. Retain attribution to the compiler and BLS; neither endorses this analysis. The original Kaggle dataset remains preserved under its existing notices.

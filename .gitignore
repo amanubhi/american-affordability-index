@@ -15,3 +15,5 @@ web/.git/
 web/.openai/state/
 web/.openai/.local/
 reports/PROJECT_BLUEPRINT.md
+
+.venv313/
