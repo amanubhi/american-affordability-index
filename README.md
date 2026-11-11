@@ -21,7 +21,9 @@ This is a model of selected costs and aggregate renter income. It does not estab
 
 For grocery businesses, seasonal produce and eggs show meaningful monthly price variability in the retained item series. Compare like months and investigate source context before treating movements as procurement risk. See [the full evidence and recommendations](reports/executive_summary.md).
 
-![Illustrative annual cost contributions](visuals/04_cost_contributions.png)
+![Illustrative monthly essentials basket through September 2026](visuals/08_item_basket_2026.png)
+
+*Refreshed November 2026. This six-item price basket is separate from the annual income-based affordability model, which ends in 2024.*
 
 ## Business questions
 
